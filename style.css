@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+ul li {
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding-top: 20px;
+    margin-right:10px ;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid;
+    padding: 5px ;
+    font-size: 18px;
+    margin: 5px 20px;
+}
+ul li a .active {
+    color: black;
+    background-color: #fff;
+}
+
+ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 30%;
+    transition: 0.5s;
+    border: none;
+
+}
+
+.logo img {
+    height: 15vh;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
